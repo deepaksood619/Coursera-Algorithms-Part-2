@@ -19,9 +19,8 @@ public class Graph {
         this(in.readInt());
         this.E = in.readInt();
 
-        for (int e = 0; e < E; e++) {
+        for (int e = 0; e < E; e++)
             this.addEdge(in.readInt(), in.readInt());
-        }
     }
 
     void addEdge(int v, int w) {
